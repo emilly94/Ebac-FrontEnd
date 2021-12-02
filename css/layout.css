@@ -1,0 +1,59 @@
+@import url(style.css);
+@import url(layout-color.css);
+@import url(responsive.css);
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+header{
+	text-align: center; 
+	color: white; 
+	padding: 30px;
+}
+header > img{
+	width: 4%;
+  height: 50%;
+	border-radius: 50%;
+  float: right;
+  margin-bottom: 50px;
+  margin-top: -45px;
+  margin-right: 0px;
+}
+nav{
+	display: table;
+	float: left; 
+	width: 10%; 
+	height: 522px;
+	border-radius: 0 65px 65px 0px;
+}
+nav ul{
+	list-style-type: none;
+	margin-top: 115px;
+}
+hr{
+	margin-top: 180%;
+	border: 1px solid white;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+section{
+	text-align: center;
+}
+article{
+	float: left; 
+	width: 90%; 
+	background-color: white; 
+	height: 100%;
+}
+footer{
+	padding: 10px; 
+	text-align: center; 
+	color: white;
+	margin-top: 522px;
+}

@@ -1,0 +1,21 @@
+
+/*Cores do layout como header, nav e footer*/
+
+.header-index{
+	background-color: #014570;
+}
+#nav-index{
+	background-color: #93bee6;
+}
+.header-contato{
+	background-color: #026aa7;
+}
+#nav-contato{
+	background-color: #b1dff9;
+}
+.header-sobre{
+	background-color: #00b2c6;
+}
+#nav-sobre{
+	background-color: #9ddae8;
+}

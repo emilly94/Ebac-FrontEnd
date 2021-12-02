@@ -1,64 +1,15 @@
-*{
-	margin: 0;
-	padding: 0;
-}
-body{
-	font-family: Arial, Helvetica, sans-serif;
-}
-header{
-	text-align: center; 
-	color: white; 
-	padding: 30px;
-}
+/*Estilos gerais para toda a aplicacao*/
+
 header h4{
 	margin-left: 75%;
 }
-#div-imgPerfil{
-	width: 4%;
-  height: 50%;
-  float: right;
-  margin-bottom: 50px;
-  margin-top: -45px;
-  margin-right: 0px;
-}
-nav{
-	display: table;
-	float: left; 
-	width: 10%; 
-	height: 522px;
-	border-radius: 0 65px 65px 0px;
-}
-nav ul{
-	list-style-type: none;
-	margin-top: 115px;
-}
-
 nav ul li:hover{
 	background-color: black;
 	opacity: 0.6;
 }
-
-hr{
-	margin-top: 180%;
-	border: 1px solid white;
-}
-a{
-	color: black;
-	text-decoration: none;
-}
 a:hover{
 	color: #c6c4c4;
 }
-section{
-	text-align: center;
-}
-article{
-	float: left; 
-	width: 90%; 
-	background-color: white; 
-	height: 100%;
-}
-
 article  input{
 	display: block;
 	margin-left: 42%;
@@ -83,7 +34,7 @@ article label{
 }
 
 #button-input{
-	background: blueviolet;
+	background: #0985ce;
 	color: white;
 	height: 10%;
 	display: block;
@@ -101,8 +52,11 @@ article label{
 	letter-spacing: 1px;
 }
 
-.div-esquerda h1, p, small{
+.div-esquerda > h1, p, small{
 	padding: 10px;
+}
+.div-direita > h1{
+	padding: 6px;
 }
 
 .div-esquerda button{
@@ -130,46 +84,8 @@ article label{
 margin-right: 35%;
 margin-bottom: -6%;
 }
-header img{
-	width: 100%;
-	border-radius: 50%;
-}
-footer{
-	padding: 10px; 
-	text-align: center; 
-	color: white;
-	margin-top: 522px;
-}
 small{
 	font-size: 10px;
-}
-
-
-.header-index{
-	background-color: #014570;
-}
-#nav-index{
-	background-color: #93bee6;
-}
-.header-contato{
-	background-color: #026aa7;
-}
-#nav-contato{
-	background-color: #b1dff9;
-}
-.header-sobre{
-	background-color: #00b2c6;
-}
-#nav-sobre{
-	background-color: #9ddae8;
-}
-.header-tabela{
-	background-color: #ddd;
-	color: black;
-}
-#nav-tabela{
-	background-color: white;
-	height: 340px;
 }
 
 #footer-login{
@@ -221,61 +137,4 @@ img{
 	width: 111%;
 	height: 130%;
 	position: relative;
-}
-
-@media (max-width: 654px) {
-	/*.div-esquerda{
-		float: none;
-    height: 0px;
-    width: 360px;
-    margin-top: -85%;
-    margin-left: 50%;
-	}*/
-	.div-direita{
-    width: 60%;
-	}
-	article{
-		width: 88%;
-	}
-	#login{
-		margin-left: 25%;
-	}
-	img{
-		width: 116%;
-	}/**/
-}
-@media(max-width: 550px){
-	.div-direita{
-    width: 68%;
-	}
-	article{
-		width: 86%;
-	}
-	#login{
-		margin-left: 25%;
-	}
-	img{
-		width: 116%;
-	}
-}
-@media(max-width: 472px){
-	.div-direita{
-    width: 80%;
-		margin-left: 10%;
-	}
-	article{
-		width: 84%;
-	}
-	#login{
-		margin-left: 20%;
-	}
-	img{
-		width: 119%;
-	}
-}
-
-@media (min-width: 375px){
-	article{
-		background-color: white;
-	}
 }
