@@ -5,17 +5,28 @@
 	background-color: #014570;
 }
 #nav-index{
-	background-color: #93bee6;
+	background-color: #0282d1;
 }
-.header-contato{
-	background-color: #026aa7;
-}
-#nav-contato{
-	background-color: #b1dff9;
-}
+
 .header-sobre{
 	background-color: #00b2c6;
 }
 #nav-sobre{
-	background-color: #9ddae8;
+	background-color: #00bcd1;
+}
+
+.header-contato{
+	background-color: #005f6b;
+}
+#nav-contato{
+	background-color: #0092a6;
+}
+
+.header-login{
+	background-color: #20256b;
+}
+
+#footer-login{
+	background-color: #20256b;
+	margin-top: 679px;
 }
