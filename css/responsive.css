@@ -135,7 +135,7 @@
 	}
 }
 
-@media (min-width: 375px){
+@media (max-width: 375px){
 	article{
 		width: 80%!important;
 	}
