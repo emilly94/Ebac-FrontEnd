@@ -155,3 +155,21 @@
     margin-top: -115%!important;
 	}
 }
+@media (max-width: 320px) {
+	header h4 {
+    margin-left: 8%!important;
+	}
+	article {
+    width: 78%!important;
+	}
+	.cursoExtra img {
+		margin-right: 60%;
+	}
+	#img {
+    width: 128%;
+    margin-top: 0px;
+	}
+	#login {
+    height: 60%;
+	}
+}
