@@ -6,15 +6,21 @@
 	header > img {
     width: 7%!important;
 	}
+	article{
+		width: 89%!important;
+	}
+	article > p{
+		width: 70%;
+    margin-left: 12%;
+	}
 	article span {
     margin-right: 65px;
 	}
+	article form input {
+    width: 35%;
+	}
 	.cursoExtra img {
     margin-right: 22%;
-	}
-	article form input {
-    
-    width: 35%;
 	}
 	#login{
 		margin-top: -55%!important;
@@ -24,20 +30,21 @@
     margin-left: -45%;
 	}
 	#img{
-		width: 111%;
+		width: 113%;
 		height: 516px!important;
-		margin-top: -40px;
+		margin-top: 0px;
+	}
+	.menu{
+		padding:  5px;
 	}
 }
 @media (max-width: 656px) {
 	article{
-		width: 88%!important;
+		width: 87%!important;
 	}
-	#login{
-		margin-left: 25%;
-	}
-	.cursoExtra img {
-    margin-right: 27%;
+	article > p{
+		width: 70%;
+    margin-left: 12%;
 	}
 	article form {
 		margin-right: 60px;
@@ -45,12 +52,21 @@
 	article form input {
     width: 46%;
 	}
+	#login{
+		margin-left: 25%;
+	}
+	.cursoExtra img {
+    margin-right: 27%;
+	}
 	#img {
-    width: 113%;
+    width: 115%;
     margin-top: 1px;
 	}
 #login {
 	margin-top: -65%!important;
+	}
+	.menu{
+		padding:  5px;
 	}
 }
 @media(max-width: 572px){
@@ -63,6 +79,11 @@
 	article{
 		width: 86%!important;
 	}
+	article > p{
+		width: 70%;
+    margin-left: 12%;
+	}
+	
 	article form input {
     width: 55%;
 	}
@@ -76,13 +97,16 @@
     width: 116%;
     margin-top: -43px;
 	}
+	.menu{
+		padding:  5px;
+	}
 }
 @media(max-width: 425px){
 	header h4 {
     margin-left: 20%!important;
 	}
 	article{
-		width: 83%!important;
+		width: 81%!important;
 	}
 	article > p {
     width: 90%!important;
@@ -96,14 +120,14 @@
 	}
 	#login{
 		margin-left: 20%;
-		margin-top: -410px;
+		margin-top: -420px!important;
 		height: 60%;
 	}
 	#login label {
     margin-left: -10%;
 	}
 	#img{
-		width: 120%;
+		width: 123%;
 		height: 513px;
 		margin-top: -44px;
 	}
@@ -113,7 +137,6 @@
 	header > img{
 		width: 15%!important;
 	}
-
 	.cursoExtra img{
 		width: 8px;
 		margin-right: 45%;
@@ -124,7 +147,7 @@
 	}
 	article form input {
     margin-left: 20%;
-    width: 72%;
+    width: 85%;
 	}
 	article textarea {
     margin-left: 20%;
@@ -133,11 +156,16 @@
 	article form > #formButton{
 		margin-left: 20%;
 	}
+	.menu{
+		padding:  5px;
+	}
+	footer {
+    margin-top: 525px!important;
+	}
 }
-
 @media (max-width: 375px){
 	article{
-		width: 80%!important;
+		width: 78%!important;
 	}
 	.cursoExtra img {
     margin-right: 50%;
@@ -146,13 +174,16 @@
     width: 100%;
 	}
 	#img {
-    width: 124%;
-    margin-top: -35px;
-		height: 514px!important;
+    width: 129%;
+		height: 520px!important;
+		margin-top: 0px;
 	}
 	#login {
-		height: 40%;
+		height: 60%;
     margin-top: -115%!important;
+	}
+	.menu{
+		padding:  5px;
 	}
 }
 @media (max-width: 320px) {
@@ -160,17 +191,24 @@
     margin-left: 8%!important;
 	}
 	article {
-    width: 78%!important;
+    width: 75%!important;
 	}
 	.cursoExtra img {
 		margin-right: 60%;
 	}
 	#img {
-    width: 128%;
+    width: 134%;
     margin-top: 0px;
 	}
 	#login {
     height: 60%;
+    margin-top: -130%!important;
+}
+	.menu{
+		padding:  5px;
 	}
-	
+	#msg{
+		width: 190px;
+	}
+	textarea:-moz-placeholder { color:#4C4; }
 }

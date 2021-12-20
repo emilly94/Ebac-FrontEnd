@@ -24,7 +24,7 @@ article form input{
 	border-radius: 20px;
 	background: #f7f7f7;
 	height: 6%;
-	width: 23%;
+	width: 21%;
 	outline: none;
 }
 article textarea{
@@ -151,8 +151,8 @@ small{
 	margin-left: 10%;
 }
 #img{
-	width: 100%;
+	width: 111%;
 	height: 517px;
 	position: relative;
-	margin-top: 1px;
+	margin-top: 0px;
 }
