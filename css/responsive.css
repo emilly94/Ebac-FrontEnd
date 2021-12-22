@@ -6,6 +6,9 @@
 	.cursoExtra img {
     margin-right: 17%;
 	}
+	.menu{
+		padding:  5px;
+	}
 }
 @media (max-width: 768px){
 	header h4 {
@@ -210,7 +213,8 @@
 	}
 	#login {
     height: 60%;
-    margin-top: -130%!important;
+    margin-top: -145%!important;
+		margin-left: 40px;
 }
 	.menu{
 		padding:  5px;
